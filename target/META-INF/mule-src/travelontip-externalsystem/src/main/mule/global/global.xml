@@ -11,5 +11,5 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="fe63ac94-2b82-4228-b817-5da59337a026">
 		<http:listener-connection host="${http.host}" port="${http.port}" />
 	</http:listener-config>
-	<configuration-properties doc:name="Configuration properties" doc:id="0decbb06-e41d-427b-9d56-67ce92871384" file="config\local.yaml" />
+	<configuration-properties doc:name="Configuration properties" doc:id="0decbb06-e41d-427b-9d56-67ce92871384" file="config/${MULE_ENV}.yaml" />
 </mule>
