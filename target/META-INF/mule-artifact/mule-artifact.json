@@ -1,0 +1,37 @@
+{
+  "configs": [
+    "implementation/TravelOntip-GetSchedules-implementation.xml",
+    "global/global.xml",
+    "implementation/TravelOntip-GetRoutes-implementation.xml",
+    "global/travelontip-externalsystem.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:travelontip-externalsystem:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "application-types.xml",
+        "config/dev.yaml",
+        "config/local.yaml",
+        "config/ppe.yaml",
+        "config/prd.yaml",
+        "config/sit.yaml",
+        "config/uit.yaml",
+        "global/global.xml",
+        "global/travelontip-externalsystem.xml",
+        "implementation/TravelOntip-GetRoutes-implementation.xml",
+        "implementation/TravelOntip-GetSchedules-implementation.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
